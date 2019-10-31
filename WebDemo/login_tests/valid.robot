@@ -3,7 +3,6 @@ Documentation    Documentation for this test suite
 ...              Can be split to multiple lines.
 ...              Supports *formatting* etc.
 Resource         resource.robot
-Library          SeleniumLibrary
 
 *** Test Cases ***
 Valid login
