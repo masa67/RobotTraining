@@ -10,6 +10,10 @@ Open browser to login page
     Open browser    ${LOGIN URL}    ${BROWSER}
     Title should be    Login Page
 
+Go to login page
+    Go to    ${LOGIN URL}
+    Title should be    Login Page
+
 Type in username
     [Arguments]    ${username}
     Input text    username_field    ${username}

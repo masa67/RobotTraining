@@ -1,7 +1,8 @@
 *** Settings ***
-Test Setup       Open browser to login page
+Suite Setup      Open browser to login page
+Test Setup       Go to login page
 Test Template    Login with invalid credentials should fail
-Test Teardown    Close browser
+Suite Teardown   Close browser
 Resource         resource.robot
 
 *** Test Cases ***    USERNAME    PASSWORD
